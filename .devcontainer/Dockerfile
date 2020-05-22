@@ -7,8 +7,8 @@
 # To fully customize the contents of this image, use the following Dockerfile instead:
 # https://github.com/microsoft/vscode-dev-containers/tree/v0.117.1/containers/python-3/.devcontainer/base.Dockerfile
 ARG VARIANT="3"
-FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 FROM node:10.14.1-alpine
+FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
 RUN mkdir /app
 WORKDIR /app
