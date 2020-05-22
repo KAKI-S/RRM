@@ -8,3 +8,5 @@ local/
 __pycache__/
 pip-selfcheck.json
 src/config.py
+.devcontainer
+.vscode
